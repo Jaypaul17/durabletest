@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+            background-image: url("img/web background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: "Ubuntu", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .company-name {
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-links li:nth-child(4) a {
+            background-color: #FF5349;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.1s ease;
+        }
+
+        .nav-links li:nth-child(4) a:hover {
+            background-color: #fb3b1e;
+        }
+
+        .text-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            color: black;
+            border-radius: 30px;
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        .link-style {
+            background-color: #FF5349;
+            border-radius: 30px;
+            padding: 20px;
+            margin: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            display: inline-block;
+        }
+
+        .link-style:hover {
+            background-color: #FF0000; 
+            color: white; 
+        }
+
+        footer {
+            width: 100%;
+            background-color: #000;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-links li {
+                margin-bottom: 10px;
+            }
+            .text-card {
+                flex-direction: column;
+                text-align: center;
+            }
+            .link-style {
+                margin: 20px 0;
+            }
+            p[class*="ubuntu-"] {
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-links li {
+                margin-right: 10px;
+            }
+            .nav-links a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/Durable logo.png" alt="Company Logo">
+            <span class="company-name ubuntu-regular" style="font-size: 40px; color: white;"><a href="index.html" style="color: white;text-decoration: none;">durable</a></span>
+        </div>
+        <ul class="nav-links">
+            <li class="ubuntu-medium" style="font-size: 22px;"><a href="#">Contact us</a></li>
+            <li class="ubuntu-medium" style="font-size: 22px;"><a href="Team.html">Team</a></li>
+            <li class="ubuntu-medium" style="font-size: 22px;"><a href="Career.html">Career</a></li>
+            <li class="ubuntu-medium" style="font-size: 22px;"><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <p class="ubuntu-medium" style="font-size: 50px; text-align: center;">Join the Team</p>
+    <div class="ubuntu-regular" style="margin: 10px 20px; font-size: 20px; text-align: center;">
+        Our vision is to enable anyone, regardless of coding ability, to generate reliable and trustworthy software purely from natural language specifications and interactions. That's a big challenge, and building that product requires a team experienced in deploying production-grade science at scale, with insight into the deep literature of both the neural and symbolic aspects of modern generative AI. The Durable team has been assembled specifically to tackle this challenge.
+        <br><br>
+        Apart from raw technical ability and experience, we optimize the team for high enthusiasm and low ego. Not only is working with such a team more pleasant, these traits are multiplicative factors of our productivity. No matter how technically proficient we are, if we’re not enthusiastic about the product and team, or if our ego inhibits collaboration or self-improvement, our potential is wasted. Like most startups, this is too hard for any individual; we have to operate as a highly-collaborative team.
+        <br><br>
+        If, like us, you’re excited about the opportunity to create the future of software and AI, please reach out.
+    </div>
+    <br>
+    <br>
+    <div class="text-card">
+        <div>
+            <p class="ubuntu-medium" style="font-size: 30px;">Fullstack Software Engineer</p>
+            <p class="ubuntu-medium" style="font-size: 17px;">Help design and build the frontend and scalable backend infrastructure for a new product with a unique user experience.</p>
+        </div>
+        <div>
+            <p class="ubuntu-medium" style="text-align: right;">
+                <img style="vertical-align: middle;" width="30px" height="30px" src="img/Clock.png"> Full time &nbsp; &nbsp;
+                <img style="vertical-align: middle;" width="30px" height="30px" src="img/Location.png"> On-Site in Boulder, CO
+            </p>
+            <a class="ubuntu-medium link-style" href="">
+                <img style="vertical-align: middle;" width="30px" height="30px" src="img/linkedin.png"> Apply on LinkedIn
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="text-card">
+        <div>
+            <p class="ubuntu-medium" style="font-size: 30px;">Machine Learning Internship</p>
+            <p class="ubuntu-medium" style="font-size: 17px;">Learn the science and engineering behind AI from experienced engineers and applied scientists.</p>
+        </div>
+        <div>
+            <p class="ubuntu-medium" style="text-align: right;">
+                <img style="vertical-align: middle;" width="30px" height="30px" src="img/Clock.png"> Internship &nbsp; &nbsp;
+                <img style="vertical-align: middle;" width="30px" height="30px" src="img/Location.png"> On-Site in Boulder, CO
+            </p>
+            <a class="ubuntu-medium link-style" href="">
+                <img style="vertical-align: middle;" width="30px" height="30px" src="img/Mail.png"> Contact us
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="ubuntu-regular" style="font-size: 15px;">
+            We’re keeping a small group of current and future friends informed of our progress on a private substack.
+            <br><br>    
+            <a style="text-decoration: none;" href="#"> Request Access</a>&nbsp; &nbsp; 
+            <a style="text-decoration: none;" href="#">Twitter</a> &nbsp;&nbsp;  
+            <a style="text-decoration: none;" href="#">LinkedIn</a> &nbsp;&nbsp;  
+            <a style="text-decoration: none;" href="#">Wellfound</a> &nbsp;&nbsp;  
+            <a style="text-decoration: none;" href="#">Xplorer Capital</a>
+            <br>
+            <br>
+            This site uses cookies for anonymous analytics.&nbsp;&nbsp; <a href="#">Opt-out</a>
+            <br>
+            <br>
+            Copyright © 2024 Durable
+        </div>
+    </footer>   
+</body> 
+</html>

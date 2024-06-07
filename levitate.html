@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<a href="google.com"><img width="150px" height="150px" style="border-radius: 25px; margin-top: 50px;margin-left: 50px;"src="img/Gojo.jpg"class="levitate"></a>
+	<style>
+		.levitate {
+			animation: hero 2s infinite alternate ease-in-out;
+		}
+
+		@keyframes hero {
+			0% {
+				transform: translateY(0);
+			}
+			100% {
+				transform: translateY(-10px);
+			}
+		}
+	</style>
+   <p id="demo">ggggg</p>
+   <button type="button" onclick="document.getElementById('demo').innerHTML='Hello World'">hii</button>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Durable</title>
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+            background-image: url("img/web background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: "Ubuntu", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 20px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .company-name {
+            margin-left: 20px;
+            font-size: 40px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .nav-links li:nth-child(4) a {
+            background-color: #FF5349;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.1s ease;
+        }
+
+        .nav-links li:nth-child(4) a:hover {
+            background-color: #fb3b1e; /* Lighter shade of red */
+        }
+
+        .content {
+            margin: 50px 20px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 2.5em;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .email-input {
+            border: 2px solid;
+            width: 80%;
+            max-width: 300px; 
+            height: 35px;
+            border-radius: 30px; 
+            padding-left: 20px;       
+            background-color: rgba(0, 0, 0, 0.5);
+            border-color: #00FF7F;
+            color: white;
+            font-size: 15px;
+        }
+
+        .button-input {
+            border: 2px solid;
+            width: 90px;
+            height: 50px;
+            margin: 10px 20px 0px 20px;
+            border-radius: 30px;
+            background-color: #00FF7F;
+            font-size: 20px;
+        }
+
+        button:hover {
+            background-color: #9FE2BF;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #000;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .content {
+                text-align: left;
+                margin: 50px 100px;
+            }
+
+            .content h1 {
+                font-size: 3.5em;
+            }
+
+            .content p {
+                font-size: 1.5em;
+            }
+
+            .email-input {
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/Durable logo.png" alt="Company Logo">
+            <span class="company-name"><a href="index.html" style="color: white;text-decoration: none;">durable</a></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="Team.html">Team</a></li>
+            <li><a href="Career.html">Career</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Custom software.<br>Inspired by you.</h1>
+        <h1 style="color: #FF5349;">Built by Generative AI.</h1>
+        <p>All without touching any code.</p>
+        <h3>We're building a future where anyone regardless of technical ability can build custom software tailored specifically for their unique needs using trustworthy generative AI. Doing this requires generating deploy-ready software for our users that not only meets their needs, but also earns their trust. Our team is led by repeat founders, backed by VCs who understand what it takes to build technically challenging but transformative products, and advised by leaders in AI research.</h3>
+        <h3>To achieve our vision, we've built a new breed of AI that knows what it knows and what it doesn't, what it can do and what it cannot. It asks specific questions to understand users' intent, and it can explicitly validate its assumptions. It does this all by continuously learning and reasoning over an unlimited and personalized world model. It is powered by neurosymbolic AI and combines the strengths of deep learning in working with language, with the reasoning capability of symbolic AI.</h3>
+        <h3>If you're excited to develop this next chapter of AI, we'd love to hear from you. While we have filled all our recently posted positions, we are always eager to engage in one-on-one discussions with driven and enthusiastic individuals.</h3>
+    </div>
+    <div class="content">
+        <p><strong>Sign up for early access</strong></p>
+        <input required type="email" placeholder="Your Email" name="email" class="email-input">
+        <button class="button-input"><a href="#" style="color: black;text-decoration: none;">Join</a></button>
+    </div>
+    <footer>
+        <p>We’re keeping a small group of current and future friends informed of our progress on a private substack</p>
+        <p><a style="text-decoration: none;" href="#">Request Access</a>&nbsp; &nbsp; 
+        <a style="text-decoration: none;" href="#">Twitter</a>&nbsp; &nbsp;  
+        <a style="text-decoration: none;" href="#">Linkedin</a>&nbsp; &nbsp;  
+        <a style="text-decoration: none;" href="#">Wellfound</a>&nbsp; &nbsp;  
+        <a style="text-decoration: none;" href="#">Xplorer Capital</a></p>
+        <p>This site uses cookies for anonymous analytics.&nbsp;&nbsp; <a href="#">Opt-out</a></p>
+        <p>Copyright © 2024 Durable</p>
+    </footer>
+</body>
+</html>
